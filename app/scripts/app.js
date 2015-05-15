@@ -43,10 +43,10 @@ angular
     .constant('APP_VERSION', '1.0.11')
 
     // Set global url for this application
-    .constant('DSP_URL', '')
+    .constant('DSP_URL', 'https://api.transitlabs.com')
 
     // Set app name(api key) for this application
-    .constant('DSP_API_KEY', 'admin')
+    .constant('DSP_API_KEY', 'admin2')
 
     // Set global header for calls made to DSP
     .config(['$httpProvider', 'DSP_API_KEY', function($httpProvider, DSP_API_KEY) {
